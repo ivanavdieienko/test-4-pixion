@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4509411baf96453e9a688e8ce43ff728, type: 3}
+  m_Name: AbilityPhase1
+  m_EditorClassIdentifier: 
+  _duration: {fileID: 11400000, guid: cf8c0054f0d0c450d89a48b7ffd62797, type: 2}
+  _consequences:
+  - Time: 0.7
+    Consequences:
+    - {fileID: 11400000, guid: 87af824ad341647baa06639784952860, type: 2}

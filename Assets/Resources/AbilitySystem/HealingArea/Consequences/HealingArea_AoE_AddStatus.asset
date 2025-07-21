@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e8c3efc733f4a94abc26c2ad701068, type: 3}
+  m_Name: HealingArea_AoE_AddStatus
+  m_EditorClassIdentifier: 
+  _consequences:
+  - {fileID: 11400000, guid: 03f77aa8904be4c7189ccc4fe82b7157, type: 2}
+  _targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  _targetListId: {fileID: 11400000, guid: f7f4d62b4e4ec42288c12611a5c18bcd, type: 2}
+  _tickInterval: {fileID: 11400000, guid: 30fdeb2f527ba4a47a1d4d0584775c66, type: 2}
+  _duration: {fileID: 11400000, guid: 59583848a48ff4dbd8b0f1e88ecadb3e, type: 2}

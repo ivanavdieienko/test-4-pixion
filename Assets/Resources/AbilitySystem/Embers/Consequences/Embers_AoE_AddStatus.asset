@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e8c3efc733f4a94abc26c2ad701068, type: 3}
+  m_Name: Embers_AoE_AddStatus
+  m_EditorClassIdentifier: 
+  _consequences:
+  - {fileID: 11400000, guid: 38b051373d8b84305858160cda6a663a, type: 2}
+  _targetLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  _targetListId: {fileID: 11400000, guid: 47bb0119216494f20b7be786d3d63850, type: 2}
+  _hpInfluence: {fileID: 11400000, guid: eb9e7e4a0248541f5b08dd6a60ff8004, type: 2}
+  _tickInterval: {fileID: 11400000, guid: 9de090dfaf2e04e83843504154a48de6, type: 2}
+  _duration: {fileID: 11400000, guid: f27146d971aff4ca98ce0d6e8556a91f, type: 2}

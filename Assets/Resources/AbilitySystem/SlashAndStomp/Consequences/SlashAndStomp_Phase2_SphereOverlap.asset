@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0af13880a49a89e57f4cae9acc03b, type: 3}
+  m_Name: SlashAndStomp_Phase2_SphereOverlap
+  m_EditorClassIdentifier: 
+  _consequences:
+  - {fileID: 11400000, guid: a62a266da0537464ea47027cc1e731a2, type: 2}
+  _targetLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  _radius: {fileID: 11400000, guid: 72ad3a03a976c4f2ca9aad88035c1b7d, type: 2}
+  _targetListId: {fileID: 11400000, guid: 3c25498b8bcb844f584812d76e14783c, type: 2}

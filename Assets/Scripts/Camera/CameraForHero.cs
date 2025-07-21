@@ -16,10 +16,12 @@ public class CameraForHero : MonoBehaviour, IInitializable
 
         _heroTransform = _hero.transform;
     }
-
+ 
     private void LateUpdate()
     {
-        Vector3 desiredPosition = _heroTransform.position + _offset;
+        if (!_heroTransform) return;
+
+        var desiredPosition = _heroTransform.position + _offset;
         transform.position = Vector3.Lerp(transform.position, desiredPosition, _cameraSpeed * Time.deltaTime);
         transform.LookAt(_heroTransform);
     }
